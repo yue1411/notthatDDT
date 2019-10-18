@@ -1,0 +1,107 @@
+if [ "$2" = "" ]
+then
+  echo "2 parameters needed:"
+  echo "    1) trajectory file path"
+  echo "    2) output file path"
+  echo "    3) reversed file? (yes,no). Default=no"
+else
+
+  path=$1
+  out_path=$2
+  reverse=$3
+
+  total_lines=`wc -l $path | awk '{print $1}'`
+
+  n_atoms=`head -n 1 $path`
+  let "lines_per_frame=$n_atoms+2"
+
+  to_find=`head -n 2 $path | tail -n 1 | awk '{print $1}'`
+
+  to_find=${to_find/-/\\-}
+  to_find=${to_find/./\\.}
+
+  line_number=`grep -n -o $to_find $path | tail -n 1`
+  line_number=${line_number%:*}
+
+  echo "Total lines in file "$path": "$total_lines
+  echo "Number of atoms: "$n_atoms
+  echo "Text to find: "$to_find
+  echo "Line number where text was found: "$line_number
+
+  let "line_number=$line_number-2+$lines_per_frame"
+
+  let "frames_to_invert=$line_number/$lines_per_frame-1"
+
+  echo "Number of frames to invert: "$frames_to_invert
+
+  head -n $line_number $path > file_to_invert
+
+  rm -f $path.corrected
+
+  for (( i=0; i<$frames_to_invert; i++ ))
+  do
+    let "l=($frames_to_invert-$i)*$lines_per_frame"
+    head -n $l file_to_invert | tail -n $lines_per_frame >> $path.corrected
+  done
+
+
+
+  let "starting_line_correct_part=$line_number"
+
+  let "lines_to_end=$total_lines-$starting_line_correct_part"
+
+  tail -n $lines_to_end $path >> $path.corrected
+
+
+  echo > worked
+
+  mv $path.corrected $path.corrected.xyz
+
+  if [ "$reverse" = "yes" ]
+  then
+    ./invert_traj $path.corrected.xyz
+    mv $path.corrected.xyz.invert $path.corrected.xyz
+  fi
+
+#  echo
+#  echo "Starting babel process..."
+#  babel -ixyz $path.corrected.xyz -omol2 try.mol2
+#  echo "Babel process finished"
+#  echo
+
+#  for i in `ls *.mol2`
+#  do
+#    name=${i#try}
+#    name=${name%.mol2}
+#    echo $name >> worked
+#  done
+
+#  sort -n worked > works
+#  echo > video
+#
+#  cat works | 
+#  (
+#  while read line
+#  do
+#    if [ "$line" != "" ]
+#    then
+#      cat try$line.mol2 >> video
+#    fi
+#  done
+#  )
+#
+#  rm works worked file_to_invert *try*.mol2
+rm file_to_invert worked
+mv $path.corrected.xyz $path.xyz
+#
+#  mv video $out_path
+#
+#fi
+
+# Modified for my computer
+
+echo Starting Babel
+/usr/local/bin/babel -ixyz $path.xyz -omol2 $out_path
+echo Babel Finished
+
+fi

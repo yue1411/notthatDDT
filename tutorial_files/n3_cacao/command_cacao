@@ -1,0 +1,3 @@
+module load gaussian/16 
+source $g16root/g16/bsd/g16.profile
+/share/siegellab/tiffy/11_ddt/1_sn2Cl/1_md/test/n3_cacao/progdynstarterHP /share/siegellab/tiffy/11_ddt/1_sn2Cl/1_md/test/n3_cacao /share/siegellab/tiffy/11_ddt/1_sn2Cl/1_md/test/scratch &

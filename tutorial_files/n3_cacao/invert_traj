@@ -1,0 +1,29 @@
+if [ "$1" = "" ]
+then
+  echo "1 parameters needed:"
+  echo "    1) trajectory file path"
+else
+
+  path=$1
+
+  total_lines=`wc -l $path | awk '{print $1}'`
+
+  n_atoms=`head -n 1 $path`
+  let "lines_per_frame=$n_atoms+2"
+
+  echo "Total lines in file "$path": "$total_lines
+  echo "Number of atoms: "$n_atoms
+
+  let "frames_to_invert=$total_lines/$lines_per_frame"
+
+  cat $path > file_to_invert
+
+  echo "Number of frames to invert: "$frames_to_invert
+
+  for (( i=0; i<$frames_to_invert; i++ ))
+  do
+    let "l=($frames_to_invert-$i)*$lines_per_frame"
+    head -n $l $path | tail -n $lines_per_frame >> $path.invert
+  done
+
+fi

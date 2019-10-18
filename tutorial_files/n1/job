@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH --job-name=md
+#SBATCH --mem-per-cpu=4G
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=16
+#SBATCH --time=60
+#SBATCH --mail-user=yuezh@ucdavis.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --partition=production
+
+set echo
+cd $SLURM_SUBMIT_DIR
+echo $SLURM_SUBMIT_DIR
+module load gaussian/16
+source $g16root/g16/bsd/g16.profile
+
+mkdir /share/siegellab/tiffy/11_ddt/1_sn2Cl/1_md/scratch/$SLURM_JOB_ID
+/share/siegellab/tiffy/11_ddt/1_sn2Cl/1_md/n1/progdynstarterHP $SLURM_SUBMIT_DIR /share/siegellab/tiffy/11_ddt/1_sn2Cl/1_md/scratch/$SLURM_JOB_ID
+
+
