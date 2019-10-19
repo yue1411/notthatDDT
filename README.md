@@ -7,7 +7,7 @@ This will be a long term project involving undergrads/new grads who are interest
 
 See separate repository that stores the website. 
 
-###Table of Content:
+### Table of Content:
 ***
 1. [General info](#General_info)
 2. [How to run dynamics](#How_to_run_dynamics)
