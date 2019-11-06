@@ -1,0 +1,919 @@
+Module gaussian-16-lssc0-linux loaded. Gaussian 16 is the latest version of the Gaussian series of electronic structure programs, used by chemists, chemical engineers, biochemists, physicists and other scientists worldwide. Gaussian 16 provides a wide-ranging suite of the most advanced modeling capabilities available.
+***NOTE: You will need to run the following command to initialize the Gaussian environment variables:
+source $g16root/g16/bsd/g16.profile
+/share/siegellab/tiffy/9_bromine/2_md/t01/2
+/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2
+ORIGDIR:
+/share/siegellab/tiffy/9_bromine/2_md/t01/2
+SCRATCHDIR:
+/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2
+PROGGRAMDIR:
+/share/siegellab/tiffy/9_bromine/2_md/t01/n1
+rm: cannot remove 'g16.com': No such file or directory
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=686) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=683) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=682) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=685) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=674) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=683) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=683) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=683) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=683) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=686) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=682) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=682) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=674) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=708) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=674) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=682) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=685) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=682) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=683) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=674) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=684) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=683) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=688) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=685) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=683) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=682) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=682) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=674) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=689) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=682) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=674) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=683) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=684) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=697) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=686) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=674) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=684) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=697) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=682) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=684) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=683) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=685) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=674) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=674) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=685) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=683) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=684) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=683) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=683) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=683) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=684) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=685) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=683) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=687) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=683) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=684) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=685) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=695) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=684) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=733) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=682) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=682) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=674) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=683) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=682) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=682) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=674) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=722) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=685) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=673) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=684) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=679) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=678) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=677) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=680) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=682) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=676) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=681) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=674) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+awk: /share/siegellab/tiffy/9_bromine/2_md/t01/n1/proganal:21: (FILENAME=/share/siegellab/tiffy/9_bromine/2_md/scratch/12569199/2/g16.log FNR=675) fatal: function `movedyn' not defined
+starting a new point or a new direction2
+slurmstepd: error: *** JOB 12569199 ON rafter-20 CANCELLED AT 2019-10-31T11:17:51 DUE TO TIME LIMIT ***

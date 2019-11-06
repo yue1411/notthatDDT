@@ -1,0 +1,292 @@
+#!/bin/bash
+#progdynstarterHP, made to use high-precision modes from Gaussian output with freq=hpmodes
+#updated to create a random number file temp811 that is used by proggenHP
+#version September 16, 2005, made for workstations
+#version August 2007 to allow periodic copying of g16.log to dyn putting it under control of progdynb
+#version Feb 2008 moves variables like the scratch directory and location of randgen to the beginning
+#version March 2008 added proganal reporting to points 1 and 2
+#version Jan 2009 fixed bug generator of having proganal run twice in checking for complete runs
+#version May 2009 Echeck catches bad energies after only one point, other lines written simpler, triple while loop, revised comments
+#version Aug 2010 isomernumber adds words to ease parsing, increased elements up to bromine, 
+#
+#LIMITATIONS - standard version only handles elements up to bromine, must change program to do higher atomic numbers
+#   only handles up to 4000th excited state for modes - this could start to affect the initialization of classical modes or transition vectors at
+#    extremely high temperatures
+#   The routine that checks whether the actual energy approximately equals the desired energy checks for lines containing "SCF Done" or "EUMP2 =" or " Energy="
+#   This should handle ordinary calculations HF, DFT, ONIOM, and MP2 calculatons but the routine in prog2ndpoint would have to be changed for other calcs. 
+#
+#                                        OUTLINE
+# A. initilize to perform Gaussian jobs and know where we are
+#    start loop
+# B. if no file named "skipstart" then generate a new isomer.  Instructions: Get rid of skipstart to start new isomer.
+#    the B loop generates geoPlusVel, adds it to geoRecord, generates and runs first and second points, and sets up for continuous loop
+# C. loop over propagation steps
+# 
+#  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+#origdir, randdir, scratchdir, g16root, logfile all may need varied from system to system and assigned here or by program calling this one
+echo $1
+echo $2
+scratchdir=$2
+
+origdir=$1
+cd $origdir
+logfile=docslog
+randdir=/share/siegellab/tiffy/9_bromine/2_md/t01/n1
+proggramdir=/share/siegellab/tiffy/9_bromine/2_md/t01/n1
+freqfile=/share/siegellab/tiffy/9_bromine/2_md/t01/n1/freqinHP
+echo ORIGDIR:
+echo $origdir
+echo SCRATCHDIR:
+echo $scratchdir
+echo PROGGRAMDIR:
+echo $proggramdir
+
+rm -f nogo    # assume that if someone is starting a job, they want it to go.
+rm -f diagnostics # contains extra info from start of progFS
+
+#### Triple 'while' loop - will have to break multiple times to get out, but advantage is ability to control starting over
+while (true)
+do
+
+# As long as there is a file "goingwell" the program will not exit entirely by itself
+rm -f goingwell
+while (true)
+do
+#  BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+   if (test -f skipstart) then
+      echo "skipping start and continuing from previous runs"
+   else
+#  B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1 generate geoPlusVel and first input file
+      cd $origdir
+      echo 3 > runpointnumber
+      $randdir/randgen > temp811
+# the next 8 lines would have to be changed to use low-precision modes
+      awk '/        1         2         3         4/,/Harmonic frequencies/ {print}' $freqfile > temp401
+      awk '/Frequencies --/ {print $3;print $4;print $5;print $6;print $7}' temp401 > tempfreqs
+      awk '/Reduced masses/ {print $4;print $5;print $6;print $7;print $8}' temp401 > tempredmass
+      awk '/Force constants/ {print $4;print $5;print $6;print $7;print $8}' temp401 > tempfrc
+      awk '/0/ && ((length($1) < 2) && ($1 < 4)) {print}' temp401 > tempmodes
+      awk '/has atomic number/ {print}' $freqfile > tempmasses
+      awk '/Standard orientation:/,/tional const/ {if ($3==0) print}' $freqfile > tempstangeos
+      awk -f $proggramdir/proggenHP $freqfile > geoPlusVel
+      if (test -f isomernumber) then
+         cp isomernumber temp533
+         awk 'BEGIN {getline;i=$1+1;print i,"----trajectory isomer number----"}' temp533 > isomernumber
+         rm temp533
+      else
+         echo "1 ----trajectory isomer number----" > isomernumber
+      fi
+      rm g16.com
+      awk -f $proggramdir/prog1stpoint isomernumber > g16.com
+#  B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2  if first part successfule then clean up and run the first input file, otherwise die
+      if (test -s g16.com) then
+         rm tempfreqs tempredmass tempfrc tempmodes tempstangeos tempmasses temp401 temp811
+         cat isomernumber >> geoRecord
+         cat geoPlusVel >> geoRecord
+         rm -f goingwell
+         cd $scratchdir
+         cp $origdir/g16.com $scratchdir/g16.com
+         $g16root/g16/g16 $scratchdir/g16.com > $scratchdir/g16.log
+         cd $origdir
+         grep 'Normal termination' $scratchdir/g16.log > goingwell
+         if (test -s goingwell) then
+            cat $scratchdir/g16.log >> dyn
+            cp $scratchdir/g16.log olderdynrun
+         else
+            break
+         fi
+      else
+         break
+      fi
+#  B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3 if B2 worked then you are here.  create 2nd point, run it, and set up for propagation loop
+      rm g16.com
+      awk -f $proggramdir/prog2ndpoint $scratchdir/g16.log > g16.com
+# before we decide to run this, check the energy
+      awk -f $proggramdir/proganal $scratchdir/g16.log >> dynfollowfile
+      rm -f tempdone
+      tail -1 dynfollowfile | awk '/XXXX/ {print}' > tempdone
+      if (test  -s tempdone) then
+         rm -f dyn
+         rm -f traj
+         break
+      fi
+      if (test -s g16.com) then
+         rm -f goingwell
+         cd $scratchdir
+         cp $origdir/g16.com $scratchdir/g16.com
+         $g16root/g16/g16 $scratchdir/g16.com > $scratchdir/g16.log
+         cd $origdir
+         grep 'Normal termination' $scratchdir/g16.log > goingwell
+         if (test -s goingwell) then
+            cp $scratchdir/g16.log olddynrun
+            cat $scratchdir/g16.log >> dyn
+            awk -f $proggramdir/proganal $scratchdir/g16.log >> dynfollowfile
+            awk '/Input orientation/,/Distance matrix/ {print}' olddynrun | awk '/   0   / {print}' > old
+            awk '/Input orientation/,/Distance matrix/ {print}' olderdynrun | awk '/   0   / {print}' > older
+            awk -f $proggramdir/progdynb olddynrun > g16.com
+            rm -f old older 
+         else
+            break
+         fi
+      else
+         break
+      fi
+# we've just completed a start, so lets skipstart until instructed otherwise
+      echo "forward" > skipstart
+   fi
+# Reverse trajectories starter routine
+   if [ `cat skipstart` = "reverserestart" ]; then
+      cd $origdir
+      echo 3 > runpointnumber
+      rm g16.com
+      awk -f $proggramdir/prog1stpoint isomernumber > g16.com
+      if (test -s g16.com) then
+         rm -f goingwell
+         cd $scratchdir
+         cp $origdir/g16.com $scratchdir/g16.com
+         $g16root/g16/g16 $scratchdir/g16.com > $scratchdir/g16.log
+         cd $origdir
+         grep 'Normal termination' $scratchdir/g16.log > goingwell
+         if (test -s goingwell) then
+            cp $scratchdir/g16.log olderdynrun
+         else
+            break
+         fi
+      else
+         break
+      fi
+      rm g16.com
+      awk -f $proggramdir/prog2ndpoint $scratchdir/g16.log > g16.com
+      awk -f $proggramdir/proganal $scratchdir/g16.log >> dynfollowfile
+      rm -f tempdone
+      if (test -s g16.com) then
+         rm -f goingwell
+         cd $scratchdir
+         cp $origdir/g16.com $scratchdir/g16.com
+         $g16root/g16/g16 $scratchdir/g16.com > $scratchdir/g16.log
+         cd $origdir
+         grep 'Normal termination' $scratchdir/g16.log > goingwell
+         if (test -s goingwell) then
+            cp $scratchdir/g16.log olddynrun
+            cat $scratchdir/g16.log >> dyn
+            awk -f $proggramdir/proganal $scratchdir/g16.log >> dynfollowfile
+            awk '/Input orientation/,/Distance matrix/ {print}' olddynrun | awk '/   0   / {print}' > old
+            awk '/Input orientation/,/Distance matrix/ {print}' olderdynrun | awk '/   0   / {print}' > older
+            awk -f $proggramdir/progdynb olddynrun > g16.com
+            rm -f old older
+         else
+            break
+         fi
+      else
+         break
+      fi
+# we've just completed a reversestart, so lets skipstart until instructed otherwise
+      echo "reverse" > skipstart
+   fi
+
+#  END_of_B___END_of_B___END_of_B___END_of_B___END_of_B___END_of_B___END_of_B___END_of_B___
+
+#  CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC  propagation loop
+   while (true)
+   do
+#increment runpointnumber
+      if (test -f runpointnumber) then
+         cp runpointnumber temp533
+         awk 'BEGIN {getline;i=$1+1;print i}' temp533 > runpointnumber
+         rm temp533
+      else
+         echo 4 > runpointnumber
+      fi
+      rm -f goingwell
+      cd $scratchdir
+echo $scratchdir
+pwd
+      cp $origdir/g16.com $scratchdir/g16.com
+ls
+      $g16root/g16/g16 $scratchdir/g16.com > $scratchdir/g16.log
+      cd $origdir
+      grep 'Normal termination' $scratchdir/g16.log > goingwell
+      if (test -s goingwell) then
+         cp olddynrun olderdynrun
+         cp $scratchdir/g16.log olddynrun
+         awk '/Input orientation/,/Distance matrix/ {print}' olddynrun | awk '/   0   / {print}' > old
+         awk '/Input orientation/,/Distance matrix/ {print}' olderdynrun | awk '/   0   / {print}' > older
+         awk -f $proggramdir/progdynb olddynrun > g16.com
+         rm -f old older 
+      else
+         break
+      fi
+
+# here is a cool link that lets you interupt the dynamics with a short job, then
+# it automatically goes back to the dynamics  just make the file 'detour' and it
+# will delete detour, run run.com, then go back to dynamics
+      if (test  -f detour) then
+         rm detour
+         date >> $logfile
+         cat run.com >> $logfile
+         cp run.log temp.log
+         cd $scratchdir
+         $g16root/g16/g16 $origdir/run.com > $origdir/run.log
+         cd $origdir
+      fi
+
+#stop it all nicely by creating a nogo file
+      if (test  -f nogo) then
+         break
+      fi
+
+#figure out if this isomer is done
+      awk -f $proggramdir/proganal $scratchdir/g16.log >> dynfollowfile
+      rm -f tempdone
+      tail -2 dynfollowfile | awk '/XXXX/ {print}' > tempdone
+      if (test  -s tempdone) then
+         if [ `awk '/reversetraj/ {if ($1=="reversetraj") print $2}' progdyn.conf` = "true" ]; then
+            if [ `cat skipstart` = "reverse" ]; then
+               rm -f skipstart
+               rm -f geoPlusVel
+               rm -f olddynrun
+               rm -f olderdynrun
+               a=`awk '{print $1}' isomernumber`
+               mv traj traj$a
+               mv dyn dyn$a
+            fi
+            if [ `cat skipstart` = "forward" ]; then
+               echo reverserestart > skipstart
+            fi
+         else
+            rm -f skipstart
+            rm -f geoPlusVel
+            rm -f olddynrun
+            rm -f olderdynrun
+            a=`awk '{print $1}' isomernumber`
+            mv traj traj$a
+            mv dyn dyn$a
+         fi
+         break
+      fi
+   done
+#  END_of_C_Loop____END_of_C_Loop____END_of_C_Loop____END_of_C_Loop____END_of_C_Loop____END_of_C_Loop____
+
+# We've got to break a second time to get out of this loop
+# if we really want to quit.  Otherwise, it will start over
+# at the top
+   if (test  -f nogo) then
+      break
+   fi
+   if (test  -s goingwell) then
+      echo "starting a new point or a new direction"
+   else
+      break
+   fi
+done
+
+   if (test  -f nogo) then
+      break
+   fi
+   if (test  -s goingwell) then
+      echo "starting a new point or a new direction2"
+   else
+      break
+   fi
+done
+exit 0

@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH --job-name=md
+#SBATCH --mem-per-cpu=16G
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=8
+#SBATCH --time=600
+#SBATCH --mail-user=yuezh@ucdavis.edu
+#SBATCH --mail-type=END,FAIL
+#SBATCH --partition=production
+
+cp -r ./n1 ./$SLURM_ARRAY_TASK_ID
+cd ./$SLURM_ARRAY_TASK_ID
+module load gaussian/16
+source $g16root/g16/bsd/g16.profile
+
+mkdir /share/siegellab/tiffy/9_bromine/2_md/scratch/$SLURM_JOB_ID
+mkdir /share/siegellab/tiffy/9_bromine/2_md/scratch/$SLURM_JOB_ID/$SLURM_ARRAY_TASK_ID
+/share/siegellab/tiffy/9_bromine/2_md/t01/n1/progdynstarterHP /share/siegellab/tiffy/9_bromine/2_md/t01/$SLURM_ARRAY_TASK_ID /share/siegellab/tiffy/9_bromine/2_md/scratch/$SLURM_JOB_ID/$SLURM_ARRAY_TASK_ID
+
